@@ -1,0 +1,20 @@
+{
+  "name": "torrentsorter",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.15.x",
+    "npm": "6.14.x"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "directory-tree": "^2.2.5",
+    "file-type": "^16.1.0",
+    "process": "^0.11.10"
+  },
+  "devDependencies": {}
+}
