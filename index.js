@@ -8,9 +8,9 @@ const { cpuUsage } = require("process");
 
 
 var dirFiles = 0;
-var dirToSendMovies = "E:\\Plex Media Server\\Téléchargés\\Films";
-var dirToSendSeries = "E:\\Plex Media Server\\Téléchargés\\Séries";
-var dirToSendAudio = "E:\\Plex Media Server\\Téléchargés\\Musiques";
+var dirToSendMovies = "";
+var dirToSendSeries = "";
+var dirToSendAudio = "";
 var args = process.argv.slice(2);
 var pathToSort = args[0];
 var pathOfFileOrFolder = pathToSort.split("\\");
