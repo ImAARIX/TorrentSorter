@@ -28,27 +28,6 @@ if(stats.isFile()) {
         var isAFileToCopy = true;
         var type = await fileType.fromFile(pathToSort);
 
-        for(var i = 0 ; i < extToDel.length ; i++) {
-
-            for(var j = 0 ; j < extToDel.length ; j++) {
-
-
-                if(path.extname(pathToSort) === extToDel[j]) {
-                
-                    isAFileToCopy = false;
-                    console.log("DETECTED : extToDel");
-
-                }
-            }
-
-            if(isAFileToCopy) {
-
-        if(path.extname(pathToSort) === extToDel[i]) {
-
-            console.log("DETECTED : extToDel");
-
-        } else {
-
                 if(type.mime.toString().includes("audio")){
                     //It's an audio file
                     console.log("DETECTED : Music");
@@ -69,10 +48,6 @@ if(stats.isFile()) {
                     console.log("Meh.")
 
                 }
-        
-            }
-        }
-    }
 
     })();
     
