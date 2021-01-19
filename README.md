@@ -13,6 +13,7 @@ Tested with qBittorrent v4.3.2
 
 4th step: Modify the index.js file and add each files that you want to use as your libraries like that
 ![Installation](http://res.clementcorp.fr/caputres/Code_KZxBKD4dvD.png)
+
 5th step: Use this command on a terminal:
 ```bash
 npm install
