@@ -16,7 +16,7 @@ var pathToSort = args[0];
 var pathOfFileOrFolder = pathToSort.split("\\");
 var nameOfFileOrFolder = pathOfFileOrFolder[pathOfFileOrFolder.length - 1];
 var extToDel = ['.txt', '.nfo', '.url', '.lnk'];
-
+//Trying pull requests
 
 var stats = fs.statSync(pathToSort);
 
